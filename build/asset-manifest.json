@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7426f63e.css",
+    "main.js": "/static/js/main.c7872ab3.js",
+    "static/media/Lv_table.JPG": "/static/media/Lv_table.e6ed6cb9336f1c505c07.JPG",
+    "static/media/CA-3.JPG": "/static/media/CA-3.f2d1c91ca5809ef76c60.JPG",
+    "static/media/LV-map.JPG": "/static/media/LV-map.dbb2106f953b2768f436.JPG",
+    "static/media/CA-6.JPG": "/static/media/CA-6.f6d1dab3cd52e846df4c.JPG",
+    "static/media/load-visibility.JPG": "/static/media/load-visibility.06ffd684239fbbba15bb.JPG",
+    "static/media/service-analytics.JPG": "/static/media/service-analytics.77680c120fefc10febe1.JPG",
+    "static/media/MV.JPG": "/static/media/MV.8f7faa5b40e57ea6dc23.JPG",
+    "static/media/CA-1.JPG": "/static/media/CA-1.d8cb058ee77a7f5d2a46.JPG",
+    "static/media/Lv-graph2.JPG": "/static/media/Lv-graph2.5b6774591538367b420d.JPG",
+    "static/media/LV-first.JPG": "/static/media/LV-first.fa62fc94942dd64050fe.JPG",
+    "static/media/Lv_graph1.JPG": "/static/media/Lv_graph1.eea40c650ab400b160fe.JPG",
+    "static/media/CA.JPG": "/static/media/CA.4c5fd23e329fe9f93279.JPG",
+    "static/media/CA-2.JPG": "/static/media/CA-2.65b102d698fca303e3f7.JPG",
+    "static/media/CA-5.JPG": "/static/media/CA-5.f66561e377e5974f686d.JPG",
+    "static/media/CA-4.JPG": "/static/media/CA-4.928b12cc3ad353da4b86.JPG",
+    "static/media/banner-image.jpg": "/static/media/banner-image.bc2426b338fef06f94ad.jpg",
+    "index.html": "/index.html",
+    "main.7426f63e.css.map": "/static/css/main.7426f63e.css.map",
+    "main.c7872ab3.js.map": "/static/js/main.c7872ab3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7426f63e.css",
+    "static/js/main.c7872ab3.js"
+  ]
+}
