@@ -274,3 +274,10 @@ button[type='submit'] {
 button[type='submit']:hover {
   background-color: #0062cc;
 }
+
+
+.lv-table-image{
+  width: 1301px;
+  height: 300px;
+  overflow: hidden;
+}

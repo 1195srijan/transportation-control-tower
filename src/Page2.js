@@ -92,7 +92,7 @@ class Page2 extends React.Component {
           <div className={`tab-content tab-2 ${this.state.activeTab === 2 ? 'active' : ''}`}>
           <img className="ca-first-image" src={CA_4} alt="Cost Analytics" />
           <img className="ca-map-image" src={CA_5} alt="Cost Analytics" />
-          <img className="ca-map-image" src={CA_6} alt="Cost Analytics" />
+          <img className="lv-table-image" src={CA_6} alt="Cost Analytics" />
           </div>
           {/* <div className={`tab-content tab-3 ${this.state.activeTab === 3 ? 'active' : ''}`}>
             Content of Tab 3
