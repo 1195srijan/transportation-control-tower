@@ -85,7 +85,8 @@ class Page1 extends React.Component {
         <img className="lv-first-image" src={LV_first} alt="Load Visibility" />
         <div className="tab-content-container">
           <div className={`tab-content tab-1 ${this.state.activeTab === 1 ? 'active' : ''}`}>
-          <img className="lv-map-image" src={LV_map} alt="Load Visibility" />
+          {/* <img className="lv-map-image" src={LV_map} alt="Load Visibility" /> */}
+        <iframe className="iframe" src="https://unifybi.kencogroup.com/single/?appid=e2d5954c-68fd-47b0-952c-a18a6de445b4&obj=DPSfVyJ&opt=ctxmenu,currsel"></iframe>
           </div>
           <div className={`tab-content tab-2 ${this.state.activeTab === 2 ? 'active' : ''}`}>
           <img className="lv-graph-image" src={LV_graph1} alt="Load Visibility" />
