@@ -85,13 +85,26 @@ class Page1 extends React.Component {
         <img className="lv-first-image" src={LV_first} alt="Load Visibility" />
         <div className="tab-content-container">
           <div className={`tab-content tab-1 ${this.state.activeTab === 1 ? 'active' : ''}`}>
-          {/* <img className="lv-map-image" src={LV_map} alt="Load Visibility" /> */}
-        <iframe className="iframe" src="https://unifybi.kencogroup.com/single/?appid=e2d5954c-68fd-47b0-952c-a18a6de445b4&obj=DPSfVyJ&opt=ctxmenu,currsel"></iframe>
+          <div class="grid-container">
+            <div class="card">
+            <img className="lv-map-image" src={LV_map} alt="Load Visibility" />
+          </div>
+          </div>
+          {/* <iframe src="https://unifybi.kencogroup.com/single/?appid=e2d5954c-68fd-47b0-952c-a18a6de445b4&obj=DPSfVyJ&opt=ctxmenu,currsel"></iframe> */}
           </div>
           <div className={`tab-content tab-2 ${this.state.activeTab === 2 ? 'active' : ''}`}>
-          <img className="lv-graph-image" src={LV_graph1} alt="Load Visibility" />
-          <img className="lv-graph2-image" src={LV_graph2} alt="Load Visibility" />
-          <img className="lv-table-image" src={Lv_table} alt="Load Visibility" />
+          <div class="grid-container">
+            <div class="card">
+              <img class="lv-graph-image" src={LV_graph1} alt="Load Visibility" />
+            </div>
+            <div class="card">
+              <img class="lv-graph2-image" src={LV_graph2} alt="Load Visibility" />
+            </div>
+            <div class="card">
+              <img class="lv-table-image" src={Lv_table} alt="Load Visibility" />
+            </div>
+          </div>
+
           </div>
           {/* <div className={`tab-content tab-3 ${this.state.activeTab === 3 ? 'active' : ''}`}>
             Content of Tab 3

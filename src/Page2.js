@@ -6,6 +6,7 @@ import CA_3 from './image/CA-3.JPG';
 import CA_4 from './image/CA-4.JPG';
 import CA_5 from './image/CA-5.JPG';
 import CA_6 from './image/CA-6.JPG';
+import './css/page.css';
 
 
 class Page2 extends React.Component {
@@ -86,13 +87,24 @@ class Page2 extends React.Component {
         <div className="tab-content-container">
           <div className={`tab-content tab-1 ${this.state.activeTab === 1 ? 'active' : ''}`}>
           <img className="ca-first-image" src={CA_1} alt="Cost Analytics" />
-          <img className="ca-map-image" src={CA_2} alt="Cost Analytics" />
-          <img className="ca-map-image" src={CA_3} alt="Cost Analytics" />
+          <div class="grid-container">
+            <div class="card">
+              <img class="ca-map-image" src={CA_2} alt="Cost Analytics" />
+            </div>
+            <div class="card">
+              <img class="ca-map-image" src={CA_3} alt="Cost Analytics" />
+            </div>
+          </div>
           </div>
           <div className={`tab-content tab-2 ${this.state.activeTab === 2 ? 'active' : ''}`}>
-          <img className="ca-first-image" src={CA_4} alt="Cost Analytics" />
-          <img className="ca-map-image" src={CA_5} alt="Cost Analytics" />
-          <img className="lv-table-image" src={CA_6} alt="Cost Analytics" />
+              <img class="ca-first-image" src={CA_4} alt="Cost Analytics" />
+              <img class="ca-map-image" src={CA_5} alt="Cost Analytics" />
+            <div class="grid-container">
+            <div class="card">
+              <img class="lv-table-image" src={CA_6} alt="Cost Analytics" />
+            </div>
+          </div>
+
           </div>
           {/* <div className={`tab-content tab-3 ${this.state.activeTab === 3 ? 'active' : ''}`}>
             Content of Tab 3

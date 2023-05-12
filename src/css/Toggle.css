@@ -1,0 +1,15 @@
+.toggleButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #eee;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggleButton.toggled {
+    background-color: #333;
+    color: #fff;
+  }
+  
